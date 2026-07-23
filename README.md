@@ -14,25 +14,27 @@ for Computational Visualization.
 ## Research
 
 - **Adaptive-order Radau IIA stiff ODE solver** ([IEEE HPEC 2025](https://ieeexplore.ieee.org/document/11196706), [arXiv:2412.14362](https://arxiv.org/abs/2412.14362)).
-- Roughly 2x faster than the classic Fortran RADAU. Landed in OrdinaryDiffEq.jl:
-- [order adaptivity](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2478),
-- [parallelization](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2584).
+  Roughly 2x faster than the classic Fortran RADAU. Landed in OrdinaryDiffEq.jl:
+  [order adaptivity](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2478),
+  [parallelization](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2584).
 - **Discontinuity detection for implicit solvers** (publication coming). Shipped as an ecosystem-wide
-  feature ([OrdinaryDiffEq.jl #3121](https://github.com/SciML/OrdinaryDiffEq.jl/pull/3121)).
+  feature ([OrdinaryDiffEq.jl #3121](https://github.com/SciML/OrdinaryDiffEq.jl/pull/3121),
+  [OrdinaryDiffEq.jl #3720](https://github.com/SciML/OrdinaryDiffEq.jl/actions/runs/30018859629?pr=3720).
 
 ## Open source (SciML / Julia)
 
 Some highlight projects:
 
 - **Butterfly Factorization** in
-  [LinearSolve.jl #785](https://github.com/SciML/LinearSolve.jl/pull/785).
+  [LinearSolve.jl #785](https://github.com/SciML/LinearSolve.jl/pull/785) and
+  [RecursiveFactorization.jl #97](https://github.com/JuliaLinearAlgebra/RecursiveFactorization.jl/pull/97).
 - Authored
-  [SparseBandedMatrices.jl](https://github.com/SciML/SparseBandedMatrices.jl/pull/1).
+  [SparseBandedMatrices.jl](https://github.com/SciML/SparseBandedMatrices.jl/pull/1) to support the above work.
 - **Symbolic logging** spanning the stack:
   [ModelingToolkit.jl #4720](https://github.com/SciML/ModelingToolkit.jl/pull/4720),
   [SciMLBase.jl #1434](https://github.com/SciML/SciMLBase.jl/pull/1434), and
   [OrdinaryDiffEq.jl #3731](https://github.com/SciML/OrdinaryDiffEq.jl/pull/3731).
-- Plus other contributions across RecursiveFactorization.jl and the ecosystem.
+- Plus other contributions across the ecosystem.
 
 ## Deep learning
 
