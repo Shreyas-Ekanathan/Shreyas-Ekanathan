@@ -13,11 +13,11 @@ for Computational Visualization.
 
 ## Research
 
-- **Adaptive-order Radau IIA stiff ODE solver** (IEEE HPEC 2025, arXiv:2412.14362).
-  Roughly 2x faster than the classic Fortran RADAU. Landed in OrdinaryDiffEq.jl:
-  [order adaptivity](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2478),
-  [parallelization](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2584).
-- **Discontinuity detection for implicit solvers**. Shipped as an ecosystem-wide
+- **Adaptive-order Radau IIA stiff ODE solver** ([IEEE HPEC 2025](https://ieeexplore.ieee.org/document/11196706), [arXiv:2412.14362](https://arxiv.org/abs/2412.14362)).
+- Roughly 2x faster than the classic Fortran RADAU. Landed in OrdinaryDiffEq.jl:
+- [order adaptivity](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2478),
+- [parallelization](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2584).
+- **Discontinuity detection for implicit solvers** (publication coming). Shipped as an ecosystem-wide
   feature ([OrdinaryDiffEq.jl #3121](https://github.com/SciML/OrdinaryDiffEq.jl/pull/3121)).
 
 ## Open source (SciML / Julia)
