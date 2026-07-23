@@ -14,12 +14,13 @@ for Computational Visualization.
 ## Research
 
 - **Adaptive-order Radau IIA stiff ODE solver** ([IEEE HPEC 2025](https://ieeexplore.ieee.org/document/11196706), [arXiv:2412.14362](https://arxiv.org/abs/2412.14362)).
-  Roughly 2x faster than the classic Fortran RADAU. Landed in OrdinaryDiffEq.jl:
+  Roughly 2x faster than the classic Fortran RADAU. Presented at IEEE HPEC and
+  [JuliaCon](https://www.youtube.com/watch?v=w1fiXGMncnM). Landed in OrdinaryDiffEq.jl:
   [order adaptivity](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2478),
   [parallelization](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2584).
-- **Discontinuity detection for implicit solvers** (publication coming). Shipped as an ecosystem-wide
-  feature ([OrdinaryDiffEq.jl #3121](https://github.com/SciML/OrdinaryDiffEq.jl/pull/3121),
-  [OrdinaryDiffEq.jl #3720](https://github.com/SciML/OrdinaryDiffEq.jl/actions/runs/30018859629?pr=3720).
+- **Discontinuity detection for implicit solvers** (publication coming). Shipped as an
+  ecosystem-wide feature ([#3121](https://github.com/SciML/OrdinaryDiffEq.jl/pull/3121),
+  [#3720](https://github.com/SciML/OrdinaryDiffEq.jl/pull/3720)).
 
 ## Open source (SciML / Julia)
 
@@ -46,11 +47,6 @@ traditional ML projects and put my own scientific twist on a few.
 - [GNN interatomic potentials](https://github.com/Shreyas-Ekanathan/Deep-Learning/tree/main/GNN): learn a Lennard-Jones energy, get forces by autograd, run it as a differentiable MD sim.
 - [MRI to CT translation](https://github.com/Shreyas-Ekanathan/Deep-Learning/tree/main/MRI2CT): six image-translation architectures benchmarked (U-Net through conditional diffusion).
 - [Acrobot control](https://github.com/Shreyas-Ekanathan/Deep-Learning/tree/main/RL/acrobot-control): from-scratch DQN and PPO, continuous swing-up and balance with an LQR handoff.
-
-## Now
-
-Neural ODEs and neural operators (FNO / DeepONet), the natural fusion of the
-solver work and deep learning, heading toward scientific ML for climate.
 
 ## Awards
 
