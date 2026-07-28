@@ -18,8 +18,8 @@ for Computational Visualization.
   [JuliaCon](https://www.youtube.com/watch?v=w1fiXGMncnM). Landed in OrdinaryDiffEq.jl:
   [order adaptivity](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2478),
   [parallelization](https://github.com/SciML/OrdinaryDiffEq.jl/pull/2584).
-- **Discontinuity detection for implicit solvers** (publication coming). Shipped as an
-  ecosystem-wide feature ([#3121](https://github.com/SciML/OrdinaryDiffEq.jl/pull/3121),
+- **Discontinuity detection for ODE solvers** (accepted, 2026 American Modelica Conference). A stepping controller that detects and handles discontinuities in ODE solvers; in collaboration with MERL,
+- delivered up to 10× speedups on their vapor-compression cycle models. Shipped as an ecosystem-wide feature ([#3121](https://github.com/SciML/OrdinaryDiffEq.jl/pull/3121),
   [#3720](https://github.com/SciML/OrdinaryDiffEq.jl/pull/3720)).
 
 ## Open source (SciML / Julia)
