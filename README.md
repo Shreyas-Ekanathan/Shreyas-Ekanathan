@@ -44,7 +44,7 @@ modern DL canon built from scratch (numpy backprop, then PyTorch), plus applied
 projects. This is my bridge from numerics into ML. I work through some of the
 traditional ML projects and put my own scientific twist on a few.
 
-- [Kolmogorov flow with neural ODEs](https://github.com/Shreyas-Ekanathan/Deep-Learning/tree/main/Neural-ODEs/kolmogorov): learn the dynamics of a chaotic 2D turbulent flow, first at a fixed viscosity, then conditioned on variable viscosities as an input.
+- [Kolmogorov flow with neural ODEs](https://github.com/Shreyas-Ekanathan/Deep-Learning/tree/main/kolmogorov): learn the dynamics of a chaotic 2D turbulent flow, first at a fixed viscosity, then conditioned on variable viscosities as an input.
 - [GNN interatomic potentials](https://github.com/Shreyas-Ekanathan/Deep-Learning/tree/main/GNN): learn a Lennard-Jones energy, get forces by autograd, run it as a differentiable MD sim.
 - [MRI to CT translation](https://github.com/Shreyas-Ekanathan/Deep-Learning/tree/main/MRI2CT): six image-translation architectures benchmarked (U-Net through conditional diffusion).
 - [Acrobot control](https://github.com/Shreyas-Ekanathan/Deep-Learning/tree/main/RL/acrobot-control): from-scratch DQN and PPO, continuous swing-up and balance with an LQR handoff.
